@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
     private ImageView imageView;
     private static final int MY_CAMERA_PERMISSION_CODE = 100;
     private final String apiEndpoint = "https://westcentralus.api.cognitive.microsoft.com/face/v1.0";
-    private final String subscriptionKey = "a7aeb240b93e4a85981906fb4c648e09";
+    private final String subscriptionKey = "fa7aeb240b93e4a85q981906fb4c648e09d";
     private final FaceServiceClient faceServiceClient =
             new FaceServiceRestClient(apiEndpoint, subscriptionKey);
     static TextView age;
